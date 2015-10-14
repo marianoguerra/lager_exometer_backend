@@ -5,7 +5,9 @@
   {mod, {'lager_exometer_backend_app', []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    exometer_core,
+    lager
    ]},
   {env,[]},
   {modules, []},
