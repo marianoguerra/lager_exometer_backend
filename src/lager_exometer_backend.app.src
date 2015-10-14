@@ -1,0 +1,16 @@
+{application, 'lager_exometer_backend',
+ [{description, "lager backend to send metrics to exometer"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {'lager_exometer_backend_app', []}},
+  {applications,
+   [kernel,
+    stdlib
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {contributors, []},
+  {licenses, []},
+  {links, []}
+ ]}.
