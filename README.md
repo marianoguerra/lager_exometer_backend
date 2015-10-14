@@ -28,10 +28,6 @@ handler like this:
        ]}
      ]}
 
-where you configure your metrics call:
-
-    lager_exometer_backend_metrics:create()
-
 your metrics will be in:
 
     [lager_exometer, log, Level]

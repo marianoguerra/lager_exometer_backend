@@ -12,6 +12,12 @@
 
 %%%_ * gen_event callbacks ---------------------------------------------
 init(Opts) ->
+  try
+    lager_exometer_backend_metrics:create()
+  catch
+      error:exists -> ok
+  end,
+
   Level = proplists:get_value(level, Opts, info),
   {ok, #s{level=lager_util:level_to_num(Level)}}.
 
