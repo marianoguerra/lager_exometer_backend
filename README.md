@@ -23,7 +23,7 @@ handler like this:
 
      {lager, [
        {handlers, [
-         {lager_metrics_backend, [{level, info}]},
+         {lager_exometer_backend, [{level, info}]},
          ... other handlers here ...
        ]}
      ]}
