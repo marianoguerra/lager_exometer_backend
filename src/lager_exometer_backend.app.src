@@ -12,6 +12,7 @@
   {modules, []},
 
   {contributors, []},
-  {licenses, []},
-  {links, []}
+  {maintainers,["Mariano Guerra"]},
+  {licenses,["APL"]},
+  {links,[{"Github","https://github.com/marianoguerra/lager_exometer_backend"}]}
  ]}.
