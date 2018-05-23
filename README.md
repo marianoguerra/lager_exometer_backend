@@ -14,7 +14,11 @@ on rebar add this to your deps:
 
     {lager_exometer_backend, ".*", {git, "https://github.com/marianoguerra/lager_exometer_backend", {branch, "master"}}}
 
-on rebar3:
+on rebar3 using [hex](https://hex.pm/packages/lager_exometer_backend):
+
+    {lager_exometer_backend, "0.1.0"}
+
+on rebar3 using git:
 
     {lager_exometer_backend, {git, "https://github.com/marianoguerra/lager_exometer_backend", {branch, "master"}}}
 
